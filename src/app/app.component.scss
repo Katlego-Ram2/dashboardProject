@@ -15,17 +15,21 @@
     height: 10%;
    
 }
-
+.sidebars{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
 .sidebar{
-    width: 30%;
+    width: 20%;
     height: 100%;
 }
 .middle-bar{
-    width: 30%;
+    width: 50%;
     height: 100%;
   
 }
 .last-bar{
-    width: 30%; 
+    width: 20%; 
     height: 100%;
 }

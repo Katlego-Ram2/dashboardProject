@@ -5,17 +5,19 @@
   <div class="inner-contents">
 
     <div class="sidebar">
-      <app-sidebar></app-sidebar>
+      <app-sidebar>
+        
+      </app-sidebar>
     </div>
     <div class="middle-bar">
       <app-display></app-display>
     </div>
     <div class="last-bar">
-      <!-- <app-lastbar></app-lastbar> -->
+      <app-right-bar>
+        <router-outlet></router-outlet>
+        <!-- the routes must be here -->
+      </app-right-bar>
     </div>
-   
-
-
   </div>
-   <router-outlet></router-outlet>
+  
 </div>
