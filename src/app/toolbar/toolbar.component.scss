@@ -1,0 +1,74 @@
+
+.top-bar{
+    display: flex;
+    flex-direction: row;
+   
+    height: 100%;
+    background-color: #333333;
+}
+.left-items{
+    background-color: #333333;
+    width: 40%;
+    display: flex;
+   
+    align-items: center;
+    text-align: center;
+    gap: 4%;
+   
+}
+.center-items{
+    width: 30%;
+    background-color: #333333;
+}
+.right-items{
+    width: 30%;
+    background-color: #333333;
+}
+#fbookIcon{
+    margin-left: 4%;
+    background-color: #333333;
+}
+.boxA{
+    width: 20%;
+    background-color: #333333;
+    height: 90%;
+}
+.boxA hover{
+border-bottom: solid blue 6px;
+background-color: aqua;
+}
+.search-box {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 30px;
+    background-color: #616060;
+    border: 1px solid #616060;
+    border-radius: 24px;
+    color:white ;
+    padding: 4px;
+  }
+  
+  .search-input {
+    background-color: #616060;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 6px;
+    color: white;
+  }
+  
+  .search-button {
+    background-color: #616060;
+    border: none;
+    outline: none;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .fa-search {
+    color: white;
+    background-color: #616060;
+  }
+  
