@@ -1,4 +1,17 @@
-p{
-    background-color: red;
-    height: 20%;
+.p{
+    background-color:#242526;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+   
+   
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    background-color: #242526;
 }
