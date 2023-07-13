@@ -18,6 +18,9 @@ import { ContactsWallComponent } from './contacts-wall/contacts-wall.component';
 import { RightBarComponent } from './right-bar/right-bar.component';
 import { HomeComponent } from './home/home.component';
 import { VideosComponent } from './videos/videos.component';
+import { StoreComponent } from './store/store.component';
+import { GroupComponent } from './group/group.component';
+import { GamesComponent } from './games/games.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { VideosComponent } from './videos/videos.component';
     ContactsWallComponent,
     RightBarComponent,
     HomeComponent,
-    VideosComponent
+    VideosComponent,
+    StoreComponent,
+    GroupComponent,
+    GamesComponent
   ],
   imports: [
     BrowserModule,
