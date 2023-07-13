@@ -16,6 +16,8 @@ import { SponsorWallComponent } from './sponsor-wall/sponsor-wall.component';
 import { BirthdayWallComponent } from './birthday-wall/birthday-wall.component';
 import { ContactsWallComponent } from './contacts-wall/contacts-wall.component';
 import { RightBarComponent } from './right-bar/right-bar.component';
+import { HomeComponent } from './home/home.component';
+import { VideosComponent } from './videos/videos.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { RightBarComponent } from './right-bar/right-bar.component';
     SponsorWallComponent,
     BirthdayWallComponent,
     ContactsWallComponent,
-    RightBarComponent
+    RightBarComponent,
+    HomeComponent,
+    VideosComponent
   ],
   imports: [
     BrowserModule,

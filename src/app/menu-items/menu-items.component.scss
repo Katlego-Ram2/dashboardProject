@@ -28,11 +28,14 @@ select{
     align-items: center;
     background-color: #18191A;
 }
+#profile{
+    border-radius: 15px;
+}
 p{
    margin-left: 16px;
     display: flex;
     background-color: #18191A;
-    margin-top: 12px;
+    margin-top: 16px;
 }
 button{
     width: 90%;
@@ -40,4 +43,9 @@ button{
     border-radius: 5px;
     margin-left: 5%;
     background-color: #616060;
+}
+hr{
+    width: 90%;
+    margin-left: 12px;
+
 }

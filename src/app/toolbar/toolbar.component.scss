@@ -16,17 +16,43 @@
     gap: 1%;
    
 }
+ img{
+    border-radius: 15px;
+    
+   
+}
 .center-items{
-    width: 40%;
+    width: 55%;
     background-color: #333333;
     display: flex;
     flex-direction: row;
+    gap: 1%;
+    margin-left: 1%;
    
 }
+button{
+    border-radius: 15px;
+    color: #fff;
+    background-color:#515254;
+   border: none;
+   height: 30px;
+   width: 30px;
+   margin-left: 10px;
+}
 .right-items{
-    width: 30%;
+    width: 20%;
     background-color: #333333;
+    display: flex;
+    flex-direction: row;
+  gap: 10px;
+text-align: center;
+align-items: center;
 
+}
+p{
+    color: #fff;
+    background-color: #333333;
+    margin: 2px;
 }
 #fbookIcon{
     margin-left: 6%;
@@ -36,7 +62,7 @@
     width: 20%;
     background-color: #333333;
     color: aliceblue;
-    height: 90%;
+    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -46,7 +72,7 @@
     width: 20%;
     background-color: #333333;
     color: aliceblue;
-    height: 90%;
+    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -56,7 +82,7 @@
     width: 20%;
     background-color: #333333;
     color: aliceblue;
-    height: 90%;
+    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -66,7 +92,7 @@
     width: 20%;
     background-color: #333333;
     color: aliceblue;
-    height: 90%;
+    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -76,7 +102,7 @@
     width: 20%;
     background-color: #333333;
     color: aliceblue;
-    height: 90%;
+    height: 100%;
     text-align: center;
     display: flex;
     align-items: center;
@@ -125,3 +151,132 @@ i{
     background-color: #616060;
   }
   
+
+  .boxE {
+   
+    position: relative;
+  }
+  
+  .boxE::after {
+  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxE:hover::after {
+   
+    background-color: blue;
+  }
+  .boxE:hover i {
+   
+    color: blue;
+  }
+
+
+  .boxA {
+   
+    position: relative;
+  }
+  
+  .boxA::after {
+  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxA:hover::after {
+   
+    background-color: blue;
+  }
+  .boxA:hover i {
+   
+    color: blue;
+  }
+  
+  .boxB {
+   
+    position: relative;
+  }
+  
+  .boxB::after {
+  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxB:hover::after {
+   
+    background-color: blue;
+  }
+  .boxB:hover i {
+   
+    color: blue;
+  }
+  .boxC {
+   
+    position: relative;
+  }
+  
+  .boxC::after {
+  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  .boxC:hover i {
+  
+    color: blue;
+  }
+  .boxC:hover::after {
+   
+    background-color: blue;
+  }
+
+  .boxD {
+   
+    position: relative;
+  }
+  
+  .boxD::after {
+  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boxD:hover::after {
+   
+    background-color: blue;
+  }
+  .boxD:hover i {
+  
+    color: blue;
+  }
