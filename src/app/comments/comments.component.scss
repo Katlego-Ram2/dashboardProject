@@ -45,4 +45,18 @@ input{
 .emojies{
     display: flex;
     flex-direction: row;
+    background-color:#242526;
+    color: #fff;
+    gap: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    background-color: #242526;
+    color: #fff;
 }
