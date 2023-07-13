@@ -10,28 +10,25 @@
       
    </div>
    <div class="center-items">
-    <div class="boxA">
-       
-        <i class="fa-solid fa-house" width="12px" height="50px"></i>
+    <div class="box boxA" (click)="setActive('boxA')" [ngClass]="{'active': activeBox === 'boxA'}">
+        <a routerLink="/home"style="background-color:  #333333;"><i class="fa-solid fa-house"></i></a>
+    </div>
+    <div class="box boxB" (click)="setActive('boxB')" [ngClass]="{'active': activeBox === 'boxB'}">
+        <a routerLink="/videos"style="background-color:  #333333;"><i class="fa-solid fa-tv"></i></a>
+    </div>
+    <div class="box boxC" (click)="setActive('boxC')" [ngClass]="{'active': activeBox === 'boxC'}">
+        <a routerLink="/videos"style="background-color:  #333333;"> <i class="fa-solid fa-store"></i></a>
+    </div>
+    <div class="box boxD" (click)="setActive('boxD')" [ngClass]="{'active': activeBox === 'boxD'}">
+        <a routerLink="/videos"style="background-color:  #333333;"><i class="fa-solid fa-users-rectangle"></i></a>
+    </div>
+    <div class="box boxE" (click)="setActive('boxE')" [ngClass]="{'active': activeBox === 'boxE'}">
+      <a routerLink="/videos"style="background-color:  #333333;"><i class="fa-solid fa-box-open" ></i></a>
+    </div>
+  </div>
+  
 
-    </div>
-    <div class="boxB">
-       
-        <i class="fa-solid fa-tv" width="12px" height="50px"></i>
-     
-    </div>
-    <div class="boxC">
-       
-        <i class="fa-solid fa-store"></i>
-    </div>
-    <div class="boxD">
-    <i class="fa-solid fa-users-rectangle"></i>
-    </div>
-    <div class="boxE">
-        <a routerLink="/videos"><i class="fa-solid fa-box-open "></i></a>
-    
-        </div>
-   </div>
+  
    
    <div class="right-items">
  <img src="../../assets/R.jpg" width="30px"  height="30px"><p>Katlego</p>

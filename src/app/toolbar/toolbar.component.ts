@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./toolbar.component.scss']
 })
 export class ToolbarComponent {
+  isActive: { [key: string]: boolean } = {};
 
+  activeBox: string = '';
+
+  setActive(box: string): void {
+    this.activeBox = box;
+  }
 }
