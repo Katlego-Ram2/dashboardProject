@@ -21,6 +21,8 @@ import { VideosComponent } from './videos/videos.component';
 import { StoreComponent } from './store/store.component';
 import { GroupComponent } from './group/group.component';
 import { GamesComponent } from './games/games.component';
+import { BirthdayNotiComponent } from './birthday-noti/birthday-noti.component';
+import { UploadComponent } from './upload/upload.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { GamesComponent } from './games/games.component';
     VideosComponent,
     StoreComponent,
     GroupComponent,
-    GamesComponent
+    GamesComponent,
+    BirthdayNotiComponent,
+    UploadComponent
   ],
   imports: [
     BrowserModule,

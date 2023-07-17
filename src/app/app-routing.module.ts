@@ -5,6 +5,10 @@ import { VideosComponent } from './videos/videos.component';
 import { StoreComponent } from './store/store.component';
 import { GroupComponent } from './group/group.component';
 import { GamesComponent } from './games/games.component';
+import { BirthdayNotiComponent } from './birthday-noti/birthday-noti.component';
+import { BirthdayWallComponent } from './birthday-wall/birthday-wall.component';
+import { UploadComponent } from './upload/upload.component';
+import { CommentsComponent } from './comments/comments.component';
 
 const routes: Routes = [
   {
@@ -24,7 +28,20 @@ const routes: Routes = [
   },
   {
     path:"games",component:GamesComponent
+  },
+  {
+    path:"birthdays",component:BirthdayNotiComponent
+  },
+  {
+    path:"birthday-wall",component:BirthdayWallComponent
+  },
+  {
+    path:"upload",component:UploadComponent
+  },
+  {
+    path:"comment",component:CommentsComponent
   }
+
 ];
 
 @NgModule({
